@@ -1,0 +1,320 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+li{
+    color: #FBFAF7;
+    text-decoration: none;
+}
+
+.body{
+    color: #163A24;
+}
+
+.header{
+    background-color: #163A24;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 98px;
+}
+
+.header-logo{
+    margin-left: 130px;
+}
+
+.header-text{
+    display: flex;
+    flex-flow: row nowrap; 
+}
+
+.link{
+    color: #FBFAF7;
+    text-decoration: none;
+}
+
+.header_container-contact{
+    color: #FBFAF7;
+}
+
+.header_container-link{
+    background-color: #198C36;
+    padding: 15px 20px;
+    border-radius: 160px;
+    font-size: 16px;
+}
+
+.header_container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-right: 140px;
+}
+
+.header_container-text{
+    margin-left: 24px;
+}
+
+.main{
+    background-color: #163A24;
+    display: flex;
+    color: #FBFAF7;
+}
+
+.main_container-header{
+    font-size: 48px;
+}
+
+.main_container-text{
+    margin-top: 18px;
+}
+
+.main_container{
+    font-size: 18px;
+    margin: 0;
+    margin-left: 130px;
+    margin-top: 120px;
+    width: 600;
+}
+
+.main_container-img{
+    margin-right: 80px;
+}
+
+.info{
+    padding: 120px;
+}
+
+.info_container-header{
+    font-size: 48px;
+}
+
+.info_container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.info_container-img{
+    margin-right: 230px;
+}
+
+.info_container-description{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 27px;
+}
+
+.info_end-text{
+    font-size: 48px;
+    font-weight: 600;
+    color: #163A24;
+}
+
+.info_end{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.info_end_partner{
+    margin-top: 66px;
+}
+
+.info_end-partner-img{
+    padding: 87px;
+}
+
+.product{
+    text-align: center;
+    background-color: #163A24;
+    color: #FBFAF7;
+    padding: 120px;
+}
+
+.product-header{
+    font-size: 48px;
+}
+
+.product_container{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 75px;
+}
+
+.product_container_box-text{
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.employees{
+    display: flex;
+    flex-flow: column;
+    background-color: #F2EFE6;
+    text-align: center;
+    padding: 120px;
+}
+
+.employees-header{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.employees-text{
+    font-size: 18px;
+    margin-top: 26px;
+}
+
+.scenes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.scenes_text-header{
+    font-size: 48px;  
+    width: 600;  
+}
+
+.scenes_text-description{
+    margin-top: 27px;
+}
+
+.consider_header{
+    display: flex;
+    flex-direction: column;
+}
+
+.consider_header-text{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.consider_header-description{
+    font-size: 18px;
+    padding: 25px;
+}
+
+.consider_container-header{
+    padding-top: 20px;
+    font-size: 28px;
+}
+
+.consider_container_text-description{
+    padding-top: 10px;
+}
+
+.consider_container_link_text{
+    color: #163A24;
+    padding-top: 15px;
+}
+
+.consider_container_link_text-description{
+    color: #163A24;
+}
+
+.consider_container-link{
+    font-size: 16px;
+}
+
+.consider_container2{
+    background-color: #FBFAF7;
+    box-shadow: 5px 5px 20px 0px #E9E4D5;
+    height: 353px;
+    width: 393px;
+    padding: 40px;
+}
+
+.consider_container3{
+    padding: 40px 55px;
+}
+
+.consider_container-all{
+    display: flex;
+}
+
+.consider_container2-size{
+    height: 430px;
+}
+
+.consider{
+    padding: 120px;
+}
+
+.possibilities{
+    background-color: #F2EFE6;
+}
+
+.possibilities_header{
+    display: flex;
+    flex-flow: column;
+    padding-top: 120px;
+}
+
+.possibilities_header-text{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.possibilities_header-description{
+    font-size: 18px;
+    padding: 25px;
+}
+
+.possibilities_container-text2{
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 13px;
+}
+
+.possibilities_container{
+    display: flex;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.possibilities_container_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.possibilities_btn{
+    display: flex;
+    align-items: center;
+    height: 52px;
+    width: 244px;
+    border-radius: 160px;
+    background-color: #198C36;
+}
+
+.possibilities_btn1{
+    padding-bottom: 120px;
+}
+
+.book{
+    display: flex;
+}
+
+.book_header{
+    padding: 200px;
+}
+
+.book_header-text{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.book_header-description{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.book_btn-btn{
+    background-color: #198C36;
+    height: 52px;
+    width: 191px;
+}
